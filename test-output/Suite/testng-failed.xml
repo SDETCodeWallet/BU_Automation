@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.automation.listners.RetryListenerClass"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.automation.web.testcases.ValidateTshirtTestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+          <include name="validate_TshirtPage"/>
+          <include name="setTestCaseName"/>
+          <include name="runnerInnovation"/>
+          <include name="runnerTearDown"/>
+        </methods>
+      </class> <!-- com.automation.web.testcases.ValidateTshirtTestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
