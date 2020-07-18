@@ -1,0 +1,7 @@
+<Locators>
+	<signInLink>xpath://a[@class='login']</signInLink>
+	<searchQueryInp>id:search_query_top</searchQueryInp>
+	<contactUsLink>xpath://a[@id='nav-link-accountList']</contactUsLink>
+	<TshirtLink>xpath:(//a[@title='T-shirts'])[2]</TshirtLink>
+</Locators>
+ 
